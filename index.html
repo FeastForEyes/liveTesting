@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feast_For_Eyes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Human Verification Modal -->
+  <div id="human-verification-modal" class="modal">
+    <div class="modal-content">
+      <p>🤖 Are you a human?</p>
+      <button id="yes-human-btn" class="modal-close-btn">Yes</button>
+    </div>
+  </div>
+
+  <!-- Math Challenge Modal -->
+  <div id="math-challenge-modal" class="modal">
+    <div class="modal-content">
+      <p>🧠 Solve this: <span id="math-problem"></span></p>
+      <input type="text" id="math-answer" placeholder="Your answer">
+      <button id="submit-math-btn" class="modal-close-btn">Submit</button>
+      <p id="math-feedback"></p>
+    </div>
+  </div>
+
+  <!-- Alert Modal -->
+  <div id="alert-modal" class="modal">
+    <div class="modal-content">
+      <p>🚨 18+ Content Ahead!</p>
+      <p>🎧 Use Earphones for the Best Experience!</p>
+      <p>🎬 Enjoy Our Videos! �</p>
+      <button id="close-alert-btn" class="modal-close-btn" style="display: none;">Close</button>
+    </div>
+  </div>
+
+  <!-- Ad Modal -->
+  <div id="ad-modal" class="modal">
+    <div class="modal-content">
+      <p>🌟 Follow Us on Instagram!</p>
+      <p>🙌 Keep Supporting Us by Sharing with Your Friends! </p>
+      <button id="close-ad-btn" class="modal-close-btn" style="display: none;">Close</button>
+    </div>
+  </div>
+
+  <!-- Unauthorized Activity Modal -->
+  <div id="unauthorized-modal" class="modal">
+    <div class="modal-content">
+      <p id="unauthorized-message">🚫 Unauthorized Activity Detected! 🛑</p>
+      <button id="close-unauthorized-btn" class="modal-close-btn">Close</button>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href=""><div class="navbar-brand">netra_nandam__</div></a>
+    </div>
+  </nav>
+
+  <div class="hero-section">
+    <div class="folder-name">
+      live glass testing 
+    </div>
+    <div class="media-wrapper">
+      <!-- Overflow Container -->
+      <div class="overflow-container">
+        <p></p>
+      </div>
+      
+      <!-- Links or buttons under the container -->
+      <div class="video-container">
+        <iframe
+          id="video-iframe"
+          src="https://drive.google.com/file/d/111HqSCuWkiaAdyjVcqKlH-un9gQ8kUq2/preview"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+        ></iframe>
+        <!-- Overlay Blank Space Container -->
+        
+        <div class="video-overlay-right"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- Section 1: QR Code -->
+      <div class="footer-section qr-code">
+        <img src="netra_nandam___qr.png" alt="QR Code">
+      </div>
+
+      <!-- Section 2: Links -->
+      <div class="footer-section links">
+        <a href="#" class="footer-link tracked-link" data-linkname="footer-link1">Footer Link 1</a>
+        <a href="#" class="footer-link tracked-link" data-linkname="footer-link2">Footer Link 2</a>
+        <a href="#" class="footer-link tracked-link" data-linkname="footer-link3">Footer Link 3</a>
+      </div>
+
+      <!-- Section 3: Follow and Copyright -->
+      <div class="footer-section follow">
+        <a id="instagram-link" href="https://www.instagram.com/netra_nandam__/" target="_blank" class="footer-link tracked-link" data-linkname="instagram-link"><i class="fab fa-instagram"></i> Follow on Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="track.js"></script>
+</body>
+</html>
